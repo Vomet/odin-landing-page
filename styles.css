@@ -2,52 +2,21 @@
     background-color: #1f2937;
 }
 
-.text {
+p, h1, h2, h3, h4, h5, h6 {
     margin-left: 15%;
     margin-right: 15%;
-    font-family: "Roboto", "sans-serif"
-}
-
-.nav-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .nav-bar .header-text {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-
-    flex: auto;
 }
 
-.nav-bar .secondary-text {
-    /* flex */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    flex: auto;
-}
-
-.intro h1 {
-    font-size: 48px;
-    font-weight: 500;
-    color: #f9faf8;
-}
-
-.secondary-text {
+.nav-bar .links {
     font-weight: normal;
     font-size: 18px;
     color: #e5e7eb;
-}
-
-.top {
-    display: flex;
-    flex-direction: row;
-
 }
 
 /* Roboto font */
