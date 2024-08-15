@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 .dark {
     background-color: #1f2937;
     margin: 0%;
@@ -18,19 +23,17 @@
   align-items: center;
 }
 
-.nav-bar .header-text {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: bold;
-
+.nav-bar .secondary-text {
     flex: 1;
 }
 
-.nav-bar .links {
-    font-weight: normal;
-    font-size: 18px;
-    color: #e5e7eb;
+.header-text {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
 
+.nav-bar .links {
     flex: 1;
 
     /* flex container */
@@ -41,6 +44,41 @@
 
 .links .link-item {
   margin: 15px;
+}
+
+/**** HERO SECTION ****/
+
+.secondary-text {
+  font-weight: normal;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-main {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 75px;
+}
+
+.hero-main .hero-main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.button {
+  padding: 5px 25px 5px 25px;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.button.button-filled {
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+.hero-main.text {
+  padding-bottom: 100px;
 }
 
 /* Roboto font */
