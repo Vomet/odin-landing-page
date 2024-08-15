@@ -67,11 +67,17 @@
 }
 
 .hero-main .text {
-  flex: 1;
+  flex: auto;
 }
 
-.hero-main .image {
-  flex: 1;
+.hero-main .image img {
+  max-width: 100%;
+  height: auto;
+  
+  /* Maintain aspect ratio */
+  flex: auto;
+  /* Allow images to grow and shrink */
+  object-fit: cover;
 }
 
 .hero-main .hero-main-text {
