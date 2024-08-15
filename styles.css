@@ -58,6 +58,20 @@
   margin-top: 0%;
   margin-bottom: 0%;
   padding-top: 75px;
+  padding-bottom: 100px;
+
+  /* flex container */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero-main .text {
+  flex: 1;
+}
+
+.hero-main .image {
+  flex: 1;
 }
 
 .hero-main .hero-main-text {
@@ -68,17 +82,13 @@
 
 .button {
   padding: 5px 25px 5px 25px;
-  border-radius: 10px;
+  border-radius: 10px; /* rounded corners */
   border: 0px;
 }
 
 .button.button-filled {
   background-color: #3882f6;
   color: #e5e7eb;
-}
-
-.hero-main.text {
-  padding-bottom: 100px;
 }
 
 /* Roboto font */
