@@ -64,6 +64,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.text .secondary-text, .text h1 {
+  margin-bottom: 15px;
 }
 
 .hero-main .text {
@@ -78,6 +83,9 @@
   flex: auto;
   /* Allow images to grow and shrink */
   object-fit: cover;
+
+  /* Rounded corners */
+  border-radius: 25px;
 }
 
 .hero-main .hero-main-text {
@@ -90,6 +98,11 @@
   padding: 5px 25px 5px 25px;
   border-radius: 10px; /* rounded corners */
   border: 0px;
+
+  /* text */
+  font-weight: normal;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .button.button-filled {
@@ -114,12 +127,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+  /* gap: 50px; */
 }
 
 .list .list-item {
   flex: auto;
-  
+
 }
 
 /* Constructs box for each image item on the webpage */
