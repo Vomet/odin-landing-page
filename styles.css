@@ -182,3 +182,28 @@
   font-size: 18px;
   font-weight: 500;
 }
+
+/*** ACTION BOX ***/
+
+.action-box {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+
+
+
+/*** FOOTER ***/
+.footer {
+  background: 
+}
+
+.footer .text {
+  color: #f9faf8;
+  text-align: center;
+  font-size: 18px;
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
