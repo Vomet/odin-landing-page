@@ -187,20 +187,51 @@
 
 /*** ACTION BOX ***/
 
-.action-box {
+.light .action-area {
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
+.action-box {
+  margin-left: 15%;
+  margin-right: 15%;
 
+  width: auto;
+  height: 150px;
 
+  /* Color of box and text */
+  background-color: #3882f6;
+  color: #e5e7eb;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 10%;
+  padding-right: 10%;
+
+  font-family: "Roboto";
+}
+
+.action-box .action-text {
+  flex: 5;
+}
+
+.action-box .sign-up-button {
+  flex: 1;
+  text-align: center;
+
+  border: 3px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 5px 0px 5px 0px;
+
+}
 
 
 /*** FOOTER ***/
-.footer {
-  background: 
-}
-
 .footer .text {
   color: #f9faf8;
   text-align: center;
