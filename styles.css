@@ -17,6 +17,8 @@
 
 /****** NAVIGATION BAR ******/
 .nav-bar {
+  padding-top: 25px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
